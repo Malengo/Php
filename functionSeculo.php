@@ -10,7 +10,7 @@ function SeculoAno($ano){
     if($z<=0){
     echo "Século 1";
     
-    //condição para pegar a ultimo numero do ano 
+    //condição para pegar a ultimo  e o penúltimo numero do ano 
     }else if(substr($ano,-1,1)==0 & substr($ano,-2,1)==0)
     
     //se for 0 ele imprime o resultado passando as posicoes do ano que determina o seculo
