@@ -11,7 +11,7 @@ function SeculoAno($ano){
     echo "Século 1";
     
     //condição para pegar a ultimo numero do ano 
-    }else if(substr($ano,-1,1)==0)
+    }else if(substr($ano,-1,1)==0 & substr($ano,-2,1)==0)
     
     //se for 0 ele imprime o resultado passando as posicoes do ano que determina o seculo
 	echo "Século ".substr($ano,0,$z);
